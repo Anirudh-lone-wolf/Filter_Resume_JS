@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page for Resume Search</title>
+    <!-- Link to an external CSS file for styling -->
+    <link rel="stylesheet" href="CSS/Login.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <div>
+        <!-- User name input field -->
+        <label>
+          <input placeholder="User name" id="user-input" />
+        </label>
+      </div>
+      <div id="password">
+        <!-- Password input field with type set to "password" for secure input -->
+        <label>
+          <input placeholder="Password" type="password" id="password-input" />
+        </label>
+      </div>
+      <!-- Message for invalid login attempt (hidden by default) -->
+      <div>
+        <p id="invalid-login">Invalid username/password</p>
+      </div>
+      <!-- Login button that triggers the login() function when clicked -->
+      <div id="login-button">
+        <button onclick="login()">Login</button>
+      </div>
+    </div>
+    <!-- Include JavaScript file for login functionality -->
+    <script type="text/javascript" src="JS/Login.js"></script>
+  </body>
+</html>
