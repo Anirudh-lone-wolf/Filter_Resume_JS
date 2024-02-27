@@ -1,5 +1,5 @@
 # G1B5_JS_GradedProject2
-# This is group assignment, a Project made with HTML, CSS, JS in visual studio code.
+# A Project made with HTML, CSS, JS in visual studio code.
 * This repository contains a web application designed for managing job applicants and their details. The application is built for front-end developers working in an 
   organization that receives applications in JSON format for various job openings. The application has two main pages:
 
